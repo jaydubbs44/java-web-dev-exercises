@@ -10,6 +10,7 @@ public class Mpg {
         System.out.println("How many gallons of gasoline have you used ");
         double gallons = input.nextDouble();
         double mpg = miles / gallons;
+        input.close();
         System.out.println("Your miles per gallon, on average, are " + mpg + " miles per gallon");
     }
 }
